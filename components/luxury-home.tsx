@@ -188,7 +188,7 @@ export function LuxuryHome({ collections, products, testimonials }: LuxuryHomePr
         />
 
         <div className="mx-auto mt-16 grid max-w-[1500px] gap-5 lg:grid-cols-12 lg:auto-rows-[240px]">
-          {collections.map((collection, index) => (
+          {collections.map((collection) => (
             <motion.article
               data-reveal
               key={collection.title}
@@ -273,7 +273,7 @@ export function LuxuryHome({ collections, products, testimonials }: LuxuryHomePr
         />
 
         <div className="mx-auto mt-16 grid max-w-[1500px] gap-5 sm:grid-cols-2 xl:grid-cols-4">
-          {products.map((product, index) => (
+          {products.map((product) => (
             <motion.article
               data-reveal
               key={product.name}
@@ -375,7 +375,7 @@ export function LuxuryHome({ collections, products, testimonials }: LuxuryHomePr
                 className="rounded-[2rem] border border-white/10 bg-[#0e0e0e] p-7 shadow-xl shadow-black/20"
               >
                 <blockquote className="text-xl leading-8 text-stone-200/86">
-                  "{testimonial.quote}"
+                  &ldquo;{testimonial.quote}&rdquo;
                 </blockquote>
                 <figcaption className="mt-10 text-[0.62rem] uppercase tracking-[0.32em] text-[#e0b76f]">
                   {testimonial.source}
