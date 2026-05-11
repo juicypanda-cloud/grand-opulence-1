@@ -1,0 +1,30 @@
+<svg width="1600" height="1600" viewBox="0 0 1600 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1600" fill="#FBF6EC"/>
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 500) rotate(126) scale(760 600)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.92"/>
+      <stop offset="0.58" stop-color="#E8CEA1" stop-opacity="0.54"/>
+      <stop offset="1" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="champagne" x1="372" y1="286" x2="1230" y2="1300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.48" stop-color="#E3C694"/>
+      <stop offset="1" stop-color="#B08E55"/>
+    </linearGradient>
+    <linearGradient id="ivory" x1="420" y1="250" x2="1080" y2="1330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#ECD8B4"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1600" fill="url(#glow)"/>
+  <ellipse cx="790" cy="1280" rx="520" ry="110" fill="#D6B77F" opacity="0.26" filter="url(#soft)"/>
+  <rect x="420" y="310" width="720" height="900" rx="56" fill="url(#ivory)" stroke="url(#champagne)" stroke-width="4"/>
+  <rect x="490" y="390" width="580" height="740" rx="34" fill="#FFFDF8" stroke="#D4B579" stroke-opacity="0.5"/>
+  <path d="M570 680H990" stroke="url(#champagne)" stroke-width="3" opacity="0.62"/>
+  <path d="M570 910H990" stroke="#FFFFFF" stroke-width="3" opacity="0.76"/>
+  <circle cx="1040" cy="430" r="20" fill="#FFFFFF"/>
+  <circle cx="520" cy="1090" r="11" fill="#E6C996" opacity="0.9"/>
+</svg>
