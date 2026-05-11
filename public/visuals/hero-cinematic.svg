@@ -1,36 +1,36 @@
 <svg width="2400" height="1600" viewBox="0 0 2400 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="2400" height="1600" fill="#050505"/>
+  <rect width="2400" height="1600" fill="#F8F1E5"/>
   <defs>
-    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1600 470) rotate(120) scale(920 620)">
-      <stop stop-color="#F6E0AF" stop-opacity="0.72"/>
-      <stop offset="0.42" stop-color="#C79048" stop-opacity="0.23"/>
-      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    <radialGradient id="champagneGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1540 455) rotate(128) scale(1060 720)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.42" stop-color="#F1DEC0" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#C9A96D" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="figure" x1="1040" y1="180" x2="1420" y2="1440" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2B2924"/>
-      <stop offset="0.48" stop-color="#121212"/>
-      <stop offset="1" stop-color="#070707"/>
+    <linearGradient id="silhouette" x1="1000" y1="125" x2="1435" y2="1475" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF7"/>
+      <stop offset="0.5" stop-color="#EFDDBD"/>
+      <stop offset="1" stop-color="#BFA06A"/>
     </linearGradient>
-    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#F8E6B5"/>
-      <stop offset="0.5" stop-color="#C18A42"/>
-      <stop offset="1" stop-color="#6E431B"/>
+    <linearGradient id="whiteLine" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.52" stop-color="#EAD5AF"/>
+      <stop offset="1" stop-color="#B9965B"/>
     </linearGradient>
     <filter id="blur">
-      <feGaussianBlur stdDeviation="42"/>
+      <feGaussianBlur stdDeviation="46"/>
     </filter>
   </defs>
-  <rect width="2400" height="1600" fill="url(#goldGlow)"/>
-  <ellipse cx="1710" cy="1350" rx="760" ry="210" fill="#D4A259" opacity="0.12" filter="url(#blur)"/>
-  <path d="M1280 210C1426 292 1518 500 1494 760C1470 1028 1354 1253 1218 1392C1050 1260 943 1045 910 778C879 524 974 292 1126 210H1280Z" fill="url(#figure)"/>
-  <path d="M1202 165C1308 165 1389 255 1389 365C1389 474 1308 555 1202 555C1095 555 1014 474 1014 365C1014 255 1095 165 1202 165Z" fill="#141414"/>
-  <path d="M1040 643C1138 714 1268 718 1376 650" stroke="url(#goldLine)" stroke-width="8" stroke-linecap="round" opacity="0.62"/>
-  <path d="M1520 180L1808 948" stroke="url(#goldLine)" stroke-width="2" opacity="0.42"/>
-  <path d="M1836 288L1410 1450" stroke="url(#goldLine)" stroke-width="1.5" opacity="0.28"/>
-  <path d="M830 180L560 1120" stroke="url(#goldLine)" stroke-width="2" opacity="0.24"/>
-  <circle cx="1772" cy="470" r="9" fill="#F6E0AF"/>
-  <circle cx="1554" cy="994" r="5" fill="#F6E0AF" opacity="0.72"/>
-  <circle cx="752" cy="736" r="4" fill="#F6E0AF" opacity="0.58"/>
-  <rect x="140" y="1260" width="740" height="1" fill="url(#goldLine)" opacity="0.45"/>
-  <rect x="1680" y="220" width="440" height="1" fill="url(#goldLine)" opacity="0.35"/>
+  <rect width="2400" height="1600" fill="url(#champagneGlow)"/>
+  <ellipse cx="1640" cy="1340" rx="780" ry="220" fill="#D9BE8A" opacity="0.28" filter="url(#blur)"/>
+  <path d="M1280 210C1426 292 1518 500 1494 760C1470 1028 1354 1253 1218 1392C1050 1260 943 1045 910 778C879 524 974 292 1126 210H1280Z" fill="url(#silhouette)"/>
+  <path d="M1202 165C1308 165 1389 255 1389 365C1389 474 1308 555 1202 555C1095 555 1014 474 1014 365C1014 255 1095 165 1202 165Z" fill="#FFFDF8"/>
+  <path d="M1040 643C1138 714 1268 718 1376 650" stroke="url(#whiteLine)" stroke-width="10" stroke-linecap="round" opacity="0.86"/>
+  <path d="M1520 180L1808 948" stroke="url(#whiteLine)" stroke-width="2" opacity="0.58"/>
+  <path d="M1836 288L1410 1450" stroke="#FFFFFF" stroke-width="1.5" opacity="0.54"/>
+  <path d="M830 180L560 1120" stroke="#E7C994" stroke-width="2" opacity="0.42"/>
+  <circle cx="1772" cy="470" r="10" fill="#FFFFFF"/>
+  <circle cx="1554" cy="994" r="6" fill="#FFF8EA" opacity="0.9"/>
+  <circle cx="752" cy="736" r="5" fill="#E7C994" opacity="0.78"/>
+  <rect x="140" y="1260" width="740" height="2" fill="url(#whiteLine)" opacity="0.52"/>
+  <rect x="1680" y="220" width="440" height="2" fill="#FFFFFF" opacity="0.62"/>
 </svg>
