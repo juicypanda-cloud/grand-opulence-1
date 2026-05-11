@@ -125,42 +125,22 @@ export function LuxuryHome({ collections, products, testimonials }: LuxuryHomePr
           className="relative z-10 mx-auto grid w-full max-w-[1680px] gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-end"
         >
           <div>
-            <motion.p
-              initial={{ opacity: 0, y: 18 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              className="mb-7 text-[0.68rem] font-semibold uppercase tracking-[0.48em] text-[#e0b76f]"
-            >
+            <p className="hero-kicker mb-7 text-[0.68rem] font-semibold uppercase tracking-[0.48em] text-[#e0b76f]">
               Private collection 2026
-            </motion.p>
-            <motion.h1
-              initial={{ opacity: 0, y: 48, filter: "blur(18px)" }}
-              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-              transition={{ duration: 1.25, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="max-w-6xl font-serif text-[clamp(4.8rem,16vw,18rem)] uppercase leading-[0.72] tracking-[-0.09em] text-balance"
-            >
+            </p>
+            <h1 className="hero-title max-w-6xl font-serif text-[clamp(4.8rem,16vw,18rem)] uppercase leading-[0.72] tracking-[-0.09em] text-balance">
               Maison
               <span className="block pl-[0.12em] text-[#f6e0af]">Aurum</span>
-            </motion.h1>
-            <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.9, delay: 0.55, ease: "easeOut" }}
-              className="mt-9 flex flex-col gap-5 sm:flex-row sm:items-center"
-            >
+            </h1>
+            <div className="hero-actions mt-9 flex flex-col gap-5 sm:flex-row sm:items-center">
               <MagneticButton href="#products">Shop signature pieces</MagneticButton>
               <MagneticButton href="#story" variant="ghost">
                 Enter the atelier
               </MagneticButton>
-            </motion.div>
+            </div>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 40 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, delay: 0.72, ease: "easeOut" }}
-            className="ml-auto max-w-md rounded-[2rem] border border-white/10 bg-black/24 p-5 shadow-2xl shadow-black/50 backdrop-blur-2xl"
-          >
+          <div className="hero-card ml-auto max-w-md rounded-[2rem] border border-white/10 bg-black/24 p-5 shadow-2xl shadow-black/50 backdrop-blur-2xl">
             <div className="mb-12 flex items-center justify-between text-[0.65rem] uppercase tracking-[0.32em] text-white/48">
               <span>001 / Cinematic retail</span>
               <span>Paris</span>
@@ -169,7 +149,7 @@ export function LuxuryHome({ collections, products, testimonials }: LuxuryHomePr
               A digital flagship for tailored silhouettes, sculptural jewelry, and ritual objects
               composed with black, light, gold, and restraint.
             </p>
-          </motion.div>
+          </div>
         </motion.div>
 
         <div className="absolute bottom-8 left-1/2 z-10 flex -translate-x-1/2 flex-col items-center gap-3 text-[0.62rem] uppercase tracking-[0.4em] text-white/45">
@@ -233,7 +213,7 @@ export function LuxuryHome({ collections, products, testimonials }: LuxuryHomePr
         <div className="relative mx-auto grid max-w-[1500px] gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div data-float="52" className="relative min-h-[560px] overflow-hidden rounded-[2.4rem] border border-white/10">
             <Image
-              src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1400&q=85"
+              src="/visuals/gilded-objects.svg"
               alt="Gold jewelry on a dark luxury surface"
               fill
               placeholder="blur"

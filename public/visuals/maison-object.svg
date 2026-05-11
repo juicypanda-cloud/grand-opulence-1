@@ -1,0 +1,29 @@
+<svg width="1600" height="1600" viewBox="0 0 1600 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1600" fill="#070707"/>
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 500) rotate(126) scale(720 560)">
+      <stop stop-color="#E7BC70" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="372" y1="286" x2="1230" y2="1300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E6B5"/>
+      <stop offset="0.48" stop-color="#C18A42"/>
+      <stop offset="1" stop-color="#5D3716"/>
+    </linearGradient>
+    <linearGradient id="black" x1="420" y1="250" x2="1080" y2="1330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#282622"/>
+      <stop offset="1" stop-color="#090909"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1600" fill="url(#glow)"/>
+  <ellipse cx="790" cy="1280" rx="520" ry="110" fill="#D4A259" opacity="0.14" filter="url(#soft)"/>
+  <rect x="420" y="310" width="720" height="900" rx="56" fill="url(#black)" stroke="url(#gold)" stroke-width="3"/>
+  <rect x="490" y="390" width="580" height="740" rx="34" fill="#0D0D0D" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <path d="M570 680H990" stroke="url(#gold)" stroke-width="2" opacity="0.45"/>
+  <path d="M570 910H990" stroke="url(#gold)" stroke-width="2" opacity="0.32"/>
+  <circle cx="1040" cy="430" r="18" fill="#F6E0AF"/>
+  <circle cx="520" cy="1090" r="10" fill="#F6E0AF" opacity="0.62"/>
+</svg>
